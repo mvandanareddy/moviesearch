@@ -6,7 +6,7 @@ import "./index.css";
 // import MovieSearch from "../src/components/movieSearch";
 // import { Library } from "./components/library";
 // import { Average } from "./components/avg";
-// import { Calculator } from "./components/calculator";
+import { Calculator } from "./components/calculator";
 import { Todo } from "./components/todo";
 // Ensure that the element with ID 'root' exists in your index.html
 const rootElement = document.getElementById("root");
@@ -20,7 +20,7 @@ if (!rootElement) {
       {/* <Library /> */}
       {/* <AverageMarks /> */}
       {/* <Average /> */}
-      {/* <Calculator /> */}
+      <Calculator />
       <Todo />
     </StrictMode>
   );
