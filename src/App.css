@@ -40,3 +40,23 @@
 .read-the-docs {
   color: #888;
 }
+.buttons button {
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.buttons button:hover {
+  background-color: #ddd;
+}
+
+.buttons button:active {
+  background-color: #ccc;
+}
+
+button {
+  background-color: #fff;
+}
