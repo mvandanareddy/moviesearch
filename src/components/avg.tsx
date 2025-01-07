@@ -31,7 +31,7 @@ export const Average: React.FC = () => {
         onChange={handleInputChange}
         style={{
           borderWidth: "2px",
-          borderColor: "red",
+          borderColor: "blue",
           borderRadius: "10px",
           padding: "5px",
           width: "350px",
