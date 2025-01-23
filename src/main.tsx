@@ -6,8 +6,8 @@ import "./index.css";
 // import MovieSearch from "../src/components/movieSearch";
 // import { Library } from "./components/library";
 // import { Average } from "./components/avg";
-import { Calculator } from "./components/calculator";
-import { Todo } from "./components/todo";
+// 
+import { New } from "./components/practice";
 const rootElement = document.getElementById("root");
 if (!rootElement) {
   console.error("No root element found");
@@ -19,8 +19,9 @@ if (!rootElement) {
       {/* <Library /> */}
       {/* <AverageMarks /> */}
       {/* <Average /> */}
-      <Calculator />
-      <Todo />
+      {/* <Calculator />
+      <Todo /> */}
+      <New/>
     </StrictMode>
   );
 }
