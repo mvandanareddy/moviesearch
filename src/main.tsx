@@ -1,4 +1,3 @@
-import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 // import { AverageMarks } from "./components/averageMarks";
@@ -7,13 +6,15 @@ import "./index.css";
 // import { Library } from "./components/library";
 // import { Average } from "./components/avg";
 // 
-import { New } from "./components/practice";
+// import Task from './components/practice'
+// import { New } from "./components/practice";
+import  Sudoku from "./components/task";
 const rootElement = document.getElementById("root");
 if (!rootElement) {
   console.error("No root element found");
 } else {
   createRoot(rootElement).render(
-    <StrictMode>
+    <div style={{alignItems:'center', justifyContent:'center'}} >
       {/* Ensure MovieSearch is returning valid JSX */}
       {/* <MovieSearch /> */}
       {/* <Library /> */}
@@ -21,7 +22,8 @@ if (!rootElement) {
       {/* <Average /> */}
       {/* <Calculator />
       <Todo /> */}
-      <New/>
-    </StrictMode>
+      {/* <New/> */}
+      <Sudoku/>
+  </div>
   );
 }
